@@ -7,7 +7,7 @@ from ObjectDetectionModel.ObjectDetectionModel import ObjectDetectionModel
 
 # Инициализируем модель
 model = ObjectDetectionModel(
-    model_name='yolo12x.pt',
+    model='yolo12x.pt',
     translated_labels_name='ru.csv'
 )
 
